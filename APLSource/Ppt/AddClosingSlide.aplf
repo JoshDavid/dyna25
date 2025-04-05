@@ -1,0 +1,19 @@
+ AddClosingSlide←{
+
+     _←'z'⎕WC'OleClient' 'PowerPoint.application'
+     pres←z.Presentations
+
+     customLayout←pres.Slides[2].CustomLayout
+     slide←pres.Slides.AddSlide(1+pres.Slides.Count)customLayout
+
+     slide.Shapes.Title.TextFrame.TextRange.Text←⊂'Conclusion'
+     bullet_point←slide.Shapes.Placeholders[2].TextFrame.TextRange
+     bullet_point.Text←⊂'one',nl,'second'
+
+     picture←slide.Shapes.AddPicture'C:\conf\dyna25\myTreeFile.jpg' 0 1 100 100
+     textbox←slide.Shapes.AddTextbox 20,⍨0 pic.Height 0+pic.(Left Top Width)
+     textbox.TextFrame.TextRange.Text←⊂⍵ ⍝ tree name
+     pres.Save 1
+
+
+ }

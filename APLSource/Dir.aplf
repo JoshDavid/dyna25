@@ -1,3 +1,2 @@
- Dir←{
-     'C:\conf\dyna25\'
- }
+ R←Dir
+ R←'C:\conf\dyna25\'

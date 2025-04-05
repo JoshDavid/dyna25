@@ -1,0 +1,11 @@
+ GetMediaFile←{
+⍝ Grab the first JPG file from a wikipedia page.. Caveat emptor!
+     b←'https://en.wikipedia.org/wiki/'
+     u←b,'_'@(' '∘=)⍵
+     r←HttpCommand.Get u
+     FindFirstJPG←{
+         p←'https:\/\/upload\.wikimedia\.org\/wikipedia\/commons.*\.jpg'
+         ⊃p ⎕S{⍵.Match}⍵
+     }
+     FindFirstJPG r.Data
+ }
