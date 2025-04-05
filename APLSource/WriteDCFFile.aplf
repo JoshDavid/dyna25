@@ -1,0 +1,7 @@
+ WriteDCFFile←{
+⍝ ⍺ ←→ Data
+⍝ ⍵ ←→ Path
+     tie←⍵ ⎕FCREATE⍠'Z' 0⊢0
+     _←⍺ ⎕FAPPEND tie
+     ⎕FUNTIE tie
+ }

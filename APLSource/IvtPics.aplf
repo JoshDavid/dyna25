@@ -1,0 +1,6 @@
+ IvtPics←{
+     d←Dir''
+     P←d∘{'⎕SHELL ''start "" ',⍺,⍵,'.bmp'''}
+     ⎕←P'vert'
+     ⎕←P'inv'
+ }

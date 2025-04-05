@@ -1,0 +1,990 @@
+[
+   (
+      'Unique ID'
+      'Indicator ID'
+      'Name'
+      'Measure'
+      'Measure Info'
+      'Geo Type Name'
+      'Geo Join ID'
+      'Geo Place Name'
+      'Time Period'
+      'Start_Date'
+      'Data Value'
+      'Message')
+   (
+      876851
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2023'
+      2023 1 1 0 0 0 0
+      19.52330736
+      ⎕NULL)
+   (
+      876854
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2023'
+      2023 1 1 0 0 0 0
+      15.47035273
+      ⎕NULL)
+   (
+      876845
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2023'
+      2023 1 1 0 0 0 0
+      15.75835985
+      ⎕NULL)
+   (
+      876857
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2023'
+      2023 1 1 0 0 0 0
+      12.72165158
+      ⎕NULL)
+   (
+      876848
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2023'
+      2023 1 1 0 0 0 0
+      16.61819734
+      ⎕NULL)
+   (
+      825801
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2022'
+      2022 1 1 0 0 0 0
+      14.91358384
+      ⎕NULL)
+   (
+      825807
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2022'
+      2022 1 1 0 0 0 0
+      15.42809652
+      ⎕NULL)
+   (
+      825798
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2022'
+      2022 1 1 0 0 0 0
+      11.24307983
+      ⎕NULL)
+   (
+      825810
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2022'
+      2022 1 1 0 0 0 0
+      16.00255405
+      ⎕NULL)
+   (
+      825804
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2022'
+      2022 1 1 0 0 0 0
+      19.05686321
+      ⎕NULL)
+   (
+      740886
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2021'
+      2021 1 1 0 0 0 0
+      19.96942812
+      ⎕NULL)
+   (
+      740889
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2021'
+      2021 1 1 0 0 0 0
+      15.46265071
+      ⎕NULL)
+   (
+      740883
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2021'
+      2021 1 1 0 0 0 0
+      16.68091536
+      ⎕NULL)
+   (
+      740880
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2021'
+      2021 1 1 0 0 0 0
+      16.54096158
+      ⎕NULL)
+   (
+      740892
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2021'
+      2021 1 1 0 0 0 0
+      12.84495181
+      ⎕NULL)
+   (
+      667045
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2020'
+      2020 1 1 0 0 0 0
+      14.82
+      ⎕NULL)
+   (
+      667033
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2020'
+      2020 1 1 0 0 0 0
+      16
+      ⎕NULL)
+   (
+      667051
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2020'
+      2020 1 1 0 0 0 0
+      11.63
+      ⎕NULL)
+   (
+      667027
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2020'
+      2020 1 1 0 0 0 0
+      17.1
+      ⎕NULL)
+   (
+      667039
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2020'
+      2020 1 1 0 0 0 0
+      20.54
+      ⎕NULL)
+   (
+      643309
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2019'
+      2019 1 1 0 0 0 0
+      21.71
+      ⎕NULL)
+   (
+      643312
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2019'
+      2019 1 1 0 0 0 0
+      15.66
+      ⎕NULL)
+   (
+      643306
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2019'
+      2019 1 1 0 0 0 0
+      16.53
+      ⎕NULL)
+   (
+      643315
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2019'
+      2019 1 1 0 0 0 0
+      11.92
+      ⎕NULL)
+   (
+      643303
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2019'
+      2019 1 1 0 0 0 0
+      16.01
+      ⎕NULL)
+   (
+      602690
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2018'
+      2018 1 1 0 0 0 0
+      17.83
+      ⎕NULL)
+   (
+      602696
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2018'
+      2018 1 1 0 0 0 0
+      17.18
+      ⎕NULL)
+   (
+      602693
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2018'
+      2018 1 1 0 0 0 0
+      23.43
+      ⎕NULL)
+   (
+      602699
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2018'
+      2018 1 1 0 0 0 0
+      12.92
+      ⎕NULL)
+   (
+      602687
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2018'
+      2018 1 1 0 0 0 0
+      17.73
+      ⎕NULL)
+   (
+      549758
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2017'
+      2017 1 1 0 0 0 0
+      13.37
+      ⎕NULL)
+   (
+      549749
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2017'
+      2017 1 1 0 0 0 0
+      18.46
+      ⎕NULL)
+   (
+      549752
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2017'
+      2017 1 1 0 0 0 0
+      24.55
+      ⎕NULL)
+   (
+      549746
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2017'
+      2017 1 1 0 0 0 0
+      19.35
+      ⎕NULL)
+   (
+      549755
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2017'
+      2017 1 1 0 0 0 0
+      17.85
+      ⎕NULL)
+   (
+      412426
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2016'
+      2015 12 31 0 0 0 0
+      13.47
+      ⎕NULL)
+   (
+      412420
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2016'
+      2015 12 31 0 0 0 0
+      24.35
+      ⎕NULL)
+   (
+      412417
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2016'
+      2015 12 31 0 0 0 0
+      18.48
+      ⎕NULL)
+   (
+      412414
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2016'
+      2015 12 31 0 0 0 0
+      18.42
+      ⎕NULL)
+   (
+      412423
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2016'
+      2015 12 31 0 0 0 0
+      17.65
+      ⎕NULL)
+   (
+      336478
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2015'
+      2015 1 1 0 0 0 0
+      19.29
+      ⎕NULL)
+   (
+      336481
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2015'
+      2015 1 1 0 0 0 0
+      25.18
+      ⎕NULL)
+   (
+      336487
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2015'
+      2015 1 1 0 0 0 0
+      13.72
+      ⎕NULL)
+   (
+      336484
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2015'
+      2015 1 1 0 0 0 0
+      18.51
+      ⎕NULL)
+   (
+      336475
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2015'
+      2015 1 1 0 0 0 0
+      19.97
+      ⎕NULL)
+   (
+      211393
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2014'
+      2013 12 1 0 0 0 0
+      18.93
+      ⎕NULL)
+   (
+      211390
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2014'
+      2013 12 1 0 0 0 0
+      19.8
+      ⎕NULL)
+   (
+      211394
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2014'
+      2013 12 1 0 0 0 0
+      14.18
+      ⎕NULL)
+   (
+      211392
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2014'
+      2013 12 1 0 0 0 0
+      26.7
+      ⎕NULL)
+   (
+      211391
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2014'
+      2013 12 1 0 0 0 0
+      19.95
+      ⎕NULL)
+   (
+      179439
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2013'
+      2012 12 1 0 0 0 0
+      19.92
+      ⎕NULL)
+   (
+      179438
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2013'
+      2012 12 1 0 0 0 0
+      19.86
+      ⎕NULL)
+   (
+      179442
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2013'
+      2012 12 1 0 0 0 0
+      13.8
+      ⎕NULL)
+   (
+      179440
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2013'
+      2012 12 1 0 0 0 0
+      28.02
+      ⎕NULL)
+   (
+      179441
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2013'
+      2012 12 1 0 0 0 0
+      18.71
+      ⎕NULL)
+   (
+      179434
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2012'
+      2011 12 1 0 0 0 0
+      20.56
+      ⎕NULL)
+   (
+      179436
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2012'
+      2011 12 1 0 0 0 0
+      19.41
+      ⎕NULL)
+   (
+      179433
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2012'
+      2011 12 1 0 0 0 0
+      20.99
+      ⎕NULL)
+   (
+      179437
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2012'
+      2011 12 1 0 0 0 0
+      14.54
+      ⎕NULL)
+   (
+      179435
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2012'
+      2011 12 1 0 0 0 0
+      28.74
+      ⎕NULL)
+   (
+      179430
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2011'
+      2010 12 1 0 0 0 0
+      30.96
+      ⎕NULL)
+   (
+      179432
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2011'
+      2010 12 1 0 0 0 0
+      16.17
+      ⎕NULL)
+   (
+      179428
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2011'
+      2010 12 1 0 0 0 0
+      22.73
+      ⎕NULL)
+   (
+      179429
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2011'
+      2010 12 1 0 0 0 0
+      22.84
+      ⎕NULL)
+   (
+      179431
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2011'
+      2010 12 1 0 0 0 0
+      21.47
+      ⎕NULL)
+   (
+      179426
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2010'
+      2009 12 1 0 0 0 0
+      21.01
+      ⎕NULL)
+   (
+      179427
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2010'
+      2009 12 1 0 0 0 0
+      15.35
+      ⎕NULL)
+   (
+      179424
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2010'
+      2009 12 1 0 0 0 0
+      22.7
+      ⎕NULL)
+   (
+      179425
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2010'
+      2009 12 1 0 0 0 0
+      30.58
+      ⎕NULL)
+   (
+      179423
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2010'
+      2009 12 1 0 0 0 0
+      22.16
+      ⎕NULL)
+   (
+      179419
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      2
+      'Brooklyn'
+      'Annual Average 2009'
+      2008 12 1 0 0 0 0
+      24.11
+      ⎕NULL)
+   (
+      179422
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      5
+      'Staten Island'
+      'Annual Average 2009'
+      2008 12 1 0 0 0 0
+      16.84
+      ⎕NULL)
+   (
+      179418
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      1
+      'Bronx'
+      'Annual Average 2009'
+      2008 12 1 0 0 0 0
+      24.52
+      ⎕NULL)
+   (
+      179420
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      3
+      'Manhattan'
+      'Annual Average 2009'
+      2008 12 1 0 0 0 0
+      33.89
+      ⎕NULL)
+   (
+      179421
+      375
+      'Nitrogen dioxide (NO2)'
+      'Mean'
+      'ppb'
+      'Borough'
+      4
+      'Queens'
+      'Annual Average 2009'
+      2008 12 1 0 0 0 0
+      22.19
+      ⎕NULL)
+]

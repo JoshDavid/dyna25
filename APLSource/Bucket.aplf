@@ -1,0 +1,6 @@
+ Bucket←{
+⍝ ⍵ ←→ ns
+     0∊⍴⍵:EmptyArg ⍝ NS with prepoulation
+     i←⍵.Header⍳⊆⍵.BucketBy
+     (i⌷⍵.Data)⍵.BucketFn ⍵.Data
+ }

@@ -1,0 +1,13 @@
+ scratchpad←{
+     ⎕←'Average tree diameter of each boro':
+     ⎕←(d Get'borocode'){⍺,(+⌿÷≢)⍵}⌸d Get'tree_dbh'
+
+     ⎕←'Max tree diameter in each boro':
+     ⎕←(d Get'borocode'){⍺,⌈/⍵}⌸d Get'tree_dbh'
+
+     ⎕←'# of trees in each boro':
+     ⎕←(d Get'borocode'){⍺,⌈/⍵}⌸⍥{(⍵⌿⍨d Get'Status')∊⊂'Alive'}d Get'tree_dbh'
+
+
+
+ }
