@@ -1,19 +1,27 @@
  AddClosingSlide←{
 
-     _←'z'⎕WC'OleClient' 'PowerPoint.application'
-     pres←z.Presentations
+     _←'p'⎕WC'OleClient' 'PowerPoint.application'
+     pres←p.Presentations.Open⊂'C:\conf\dyna25\dyna25-TMP.pptx'
+     p.Visible←1
 
      customLayout←pres.Slides[2].CustomLayout
      slide←pres.Slides.AddSlide(1+pres.Slides.Count)customLayout
 
      slide.Shapes.Title.TextFrame.TextRange.Text←⊂'Conclusion'
      bullet_point←slide.Shapes.Placeholders[2].TextFrame.TextRange
-     bullet_point.Text←⊂'one',nl,'second'
+     b←'Projects' 'Files (CSV,DCF,JSON,Native)'
+     b,←'@⌸(n:v)' '⎕SHELL' 'Namespaces' 'HtmlRenderer' 'SQAPL' '.NET' '.COM' 'Regex'
+     nl←⎕UCS 13
+     bullet_point.Text←{⍺,nl,⍵}/b
 
-     picture←slide.Shapes.AddPicture'C:\conf\dyna25\myTreeFile.jpg' 0 1 100 100
-     textbox←slide.Shapes.AddTextbox 20,⍨0 pic.Height 0+pic.(Left Top Width)
-     textbox.TextFrame.TextRange.Text←⊂⍵ ⍝ tree name
+     top5←##.((d Get'spc_latin')[5↑⍒d Get'tree_dbh'])
+     tree←⊃top5~⊂''
+     file←GetTreeImage tree
+
+     picture←slide.Shapes.AddPicture file 0 1 100 100
+     Below←{0 ⍵.Height 0+⍵.(Left Top Width)}
+     textbox←slide.Shapes.AddTextbox(1,Below picture),20
+     textbox.TextFrame.TextRange.Text←⊂tree
      pres.Save 1
-
 
  }

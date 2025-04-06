@@ -3,12 +3,12 @@
 ⍝      Col1: Borough
 ⍝      Col2: Value
 ⍝ ← ←→ Namespace
-     ns←⎕NS''
-     ns.Title←'Fine particles (PM 2.5)'
-     ns.Subtitle←'Mean (mcg/m3)'
-     ns.Unit←'mcg/m3'
+     ns←(
+         Title:'Fine particles (PM 2.5)'
+         Subtitle:'Mean (mcg/m3)'
+         Unit:⊂'mcg/m3'
+     )
      o←⍋⍵[;1]
-     ns.Borough←⍵[o;1]
-     ns.Value←⍵[o;2]
+     ns.(Borough Value)←↓⍉⍵[o;]
      ns
  }

@@ -1,6 +1,5 @@
  GetTreeImage←{
  ⍝ ⍵ ←→ Tree name (scientific) e.g. Quercus bicolor
-     ⍝ u←'https://upload.wikimedia.org/wikipedia/commons/c/c3/Quercus_bicolor_morton_acc_71-69-2.jpg'
      u←GetMediaFile ⍵
      r←HttpCommand.Get u
      ~r.IsOK:r.msg

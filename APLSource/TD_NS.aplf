@@ -1,10 +1,9 @@
  TD_NS←{
 ⍝ ⍵ ←→ matrix of borough names and values
-     ns←(
-         Title:'Tree Diameter'
-         Subtitle:'diameter (in)'
-         Unit:⊂'inches'
-     )
+     ns←⎕NS''
+     ns.Title←'Tree Diameter'
+     ns.Subtitle←'diameter (in)'
+     ns.Unit←⊂'inches'
      o←⍋⍵[;1]
      ns.(Borough Value)←↓⍉⍵[o;]
      ns

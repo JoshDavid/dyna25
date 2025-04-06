@@ -1,0 +1,3 @@
+ do←{                  ⍝ Apply no-result function "en passant".
+     ⍎'⍺⍺ ⍵ ⋄ ⍵' ⋄ ⍺⍺
+ }
