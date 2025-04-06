@@ -1,0 +1,3 @@
+ Spec←{
+     ⊃⎕NGET'C:\conf\dyna25\vega\specv3.txt'
+ }

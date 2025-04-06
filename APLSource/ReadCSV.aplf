@@ -1,3 +1,3 @@
  ReadCSV←{
-     ⎕CSV ⍵ ⍬ 4 1
+     ⎕CSV ⍵ ⍬ 2 1  ⍝ (File)(Deduce Encoding)
  }

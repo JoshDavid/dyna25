@@ -3,8 +3,8 @@
      ⍝ u←'https://upload.wikimedia.org/wikipedia/commons/c/c3/Quercus_bicolor_morton_acc_71-69-2.jpg'
      u←GetMediaFile ⍵
      r←HttpCommand.Get u
+     ~r.IsOK:r.msg
      f←##.Dir,('-'@(' '∘=)⍵),'.jpg'
-     f←'C:\conf\dyna25\myTreeFile.jpg'
      t←f ⎕NCREATE(⍠'IfExists' 'Replace')0   ⍝ 0 = Next available tie number
      _←r.Data ⎕NAPPEND t
      _←⎕NUNTIE t

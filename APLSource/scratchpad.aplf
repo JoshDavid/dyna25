@@ -1,5 +1,5 @@
  scratchpad←{
-     ⎕←'Average tree diameter of each boro':
+     ⎕←'Average tree diameter of each boro'
      ⎕←(d Get'borocode'){⍺,(+⌿÷≢)⍵}⌸d Get'tree_dbh'
 
      ⎕←'Max tree diameter in each boro':
@@ -8,6 +8,8 @@
      ⎕←'# of trees in each boro':
      ⎕←(d Get'borocode'){⍺,⌈/⍵}⌸⍥{(⍵⌿⍨d Get'Status')∊⊂'Alive'}d Get'tree_dbh'
 
+     ⎕←'Pivot Table'
+     ⎕←{Borough[⍵]}@{1 0⍴⍨⍴⍵}(d Get'borocode'){c←≢⍵ ⋄ ⍺,⊂{⍺,100×c÷⍨≢⍵}⌸⍵}⌸d Get'status'
 
 
  }

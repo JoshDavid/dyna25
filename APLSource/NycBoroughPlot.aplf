@@ -1,13 +1,16 @@
  NycBoroughPlot←{
 ⍝ ⍵ ←→ Namespace
      VL←#.VegaLite
-     s←⎕JSON z ⍝ spec
+     spec←Spec''
+     s←⎕JSON spec
      s.width←1600
      s.height←800
      s.title.text←⍵.Title
      s.title.subtitle←⍵.Subtitle
      v←s.data.values
      v.Value←⍵.Value
+     v.DisplayValue←2(⍎⍕)⍵.Value
      v.Geography←⍵.Borough
+     v.Unit←⍵.Unit
      VL.Html.Render s
  }
