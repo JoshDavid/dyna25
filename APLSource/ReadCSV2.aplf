@@ -1,3 +1,0 @@
- ReadCSV2←{
-     ⎕CSV⍠'Invert' 2⊢⍵ ⍬ 4 1
- }
